@@ -8,6 +8,7 @@ The accuracy of the model is still not calculated yet, however, the practical te
 ![Image](https://github.com/user-attachments/assets/ae5b5bb8-ede7-427e-b07d-6439b5730994)
 <img width="783" height="171" alt="Image" src="https://github.com/user-attachments/assets/25c0dd26-f40a-4cd7-8802-40f534a3dc58" />
 Calculate the distance between two point on plane using Euclidean method, then use EAR equation to get Eye Aspect Ratio value. The reason EAR is better than directly measure the distance between upper eyelid and lower eyelid is because of how image or video pixels map to camera. The resolution vary depend on the distance between the face and camera, but by using Eye Ratio, the ratio remain the same even the resoltuion are change.
+
 Code implementation :
 ```python
 def blink_detection(points, face_landmarks):
