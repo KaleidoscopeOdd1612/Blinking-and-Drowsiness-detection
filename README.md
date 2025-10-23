@@ -1,9 +1,9 @@
 # Description
-This project use built-in front face detection model from dlib library with pre-trained model 68 face landmarks detector and dynamic threshold to predicted the event of blink and drowsy eyes.
+This project use built-in front face detection model from dlib library with pre-trained model 68 face landmarks detector and dynamic threshold to predicted the event of blink and drowsy eyes, can be use in general to detect drowsiness, depend on each use cases.
 
 download pre-trained model 68 face landmarks detector (dlib) : https://huggingface.co/spaces/asdasdasdasd/Face-forgery-detection/blob/ccfc24642e0210d4d885bc7b3dbc9a68ed948ad6/shape_predictor_68_face_landmarks.dat
 # Installation
-Just copy or download my code
+Just copy or download my code, the requirement of library are in my code
 # Warning
 The accuracy of the model is still not calculated yet, however, the practical test on record video had show somewhat decent result. Also this code is not suitable for jupyter notebook due to FuncAnimation of matplotlib library, if you want to use it in jupyter notebook with FuncAnimation in the code, I cannot help with that because the knowledge is out of my scope.
 # Eye Aspect Ratio (EAR)
